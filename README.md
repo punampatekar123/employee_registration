@@ -2,7 +2,7 @@
 Employee Registration Form in React, Typescript and Fluent UI 8
 
 
-Building and running the app
+* Building and running the app
 In the project directory, you can run:
 
 npm run dev
@@ -10,9 +10,9 @@ npm run dev
 Runs the app.
 Open http://localhost:5173/ to view it in the browser.
 
-Technical Documentation 
+* Technical Documentation 
 
-Component: RegistrationForm
+** Component: RegistrationForm
 
 RegistrationForm is a React functional component built with TypeScript and Fluent UI that renders an employee registration form. 
 The form collects user details and navigates to a confirmation page upon successful submission.
@@ -137,7 +137,7 @@ Indicates whether the department data is being fetched.
 
 	Fallback error for API failure to load departments.
 
-Component: Confirmation
+** Component: Confirmation
 1)  Overview
 	Confirmation is a React functional component that displays a confirmation page after successful form submission. It uses Fluent UI’s DetailsList to display the submitted employee data and provides a button to navigate back to the registration form.
 
